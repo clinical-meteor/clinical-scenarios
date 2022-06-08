@@ -16,3 +16,7 @@ git clone https://github.com/symptomatic/clinical-scenarios
 meteor add symmptomatic:clinical-scenarios  
 ```
 
+
+#### References
+
+[Patient Contributed Data](https://docs.google.com/document/d/1t_PxsV65jlAKRaHkpuganuNMBTu_-f4A/edit)
