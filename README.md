@@ -19,4 +19,4 @@ meteor add symmptomatic:clinical-scenarios
 
 #### References
 
-[Patient Contributed Data](https://docs.google.com/document/d/1t_PxsV65jlAKRaHkpuganuNMBTu_-f4A/edit)
+[Patient Contributed Data - Patient Personas](https://docs.google.com/document/d/1t_PxsV65jlAKRaHkpuganuNMBTu_-f4A/edit)
