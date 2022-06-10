@@ -20,3 +20,6 @@ meteor add symmptomatic:clinical-scenarios
 #### References
 
 [Patient Contributed Data - Patient Personas](https://docs.google.com/document/d/1t_PxsV65jlAKRaHkpuganuNMBTu_-f4A/edit)
+[Mobilize Computable Biomedical Knowledge - Opening Keynote](https://www.youtube.com/watch?v=kmpQsUoo4YM)
+[Opening MCBK Keynote: Towards More Computable Knowledge](https://drive.google.com/file/d/1betLhp7J_IwPmrp267cEU7tlocXVKNs0/view)
+
