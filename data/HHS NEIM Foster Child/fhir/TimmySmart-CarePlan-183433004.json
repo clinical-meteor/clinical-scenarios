@@ -1,0 +1,36 @@
+{
+  "resourceType": "CarePlan",
+  "id": "fostercare",
+  "status": "active",
+  "intent": "proposal",
+  "subject": {
+    "display": "Nancy Smart",
+    "reference": "Patient/nancy-smart"
+  },
+  "period": {
+    "start": "2021-01-01T05:00:00.000Z",
+    "end": "2028-01-01T05:00:00.000Z"
+  },
+  "title": "Parental Loss Care Plan",
+  "description": "Own child has been fostered (regime/therapy)",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "183433004",
+        "display": "Own child has been fostered (regime/therapy)"
+      }
+    ],
+    "text": "Own child has been fostered (regime/therapy)"
+  },
+  "goal": [
+    {
+      "display": "Food Security",
+      "reference": "Goal/foodsecurity"
+    },
+    {
+      "display": "Housing Security",
+      "reference": "Goal/housingsecurity"
+    }
+  ]
+}

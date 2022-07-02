@@ -1,0 +1,72 @@
+{
+  "resourceType": "Condition",
+  "id": "p73134223",
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "resolved",
+        "display": "Resolved",
+        "userSelected": false
+      }
+    ],
+    "text": "Resolved"
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code": "confirmed",
+        "display": "Confirmed",
+        "userSelected": false
+      }
+    ],
+    "text": "Confirmed"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item",
+          "display": "Problem List Item"
+        }
+      ],
+      "text": "Problem List Item"
+    },
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "74188005",
+          "display": "Medical (qualifier value)",
+          "userSelected": false
+        }
+      ],
+      "text": "Medical"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "23406007",
+        "display": "Fracture of upper limb (disorder)",
+        "userSelected": false
+      },
+      {
+        "system": "http://e-imo.com/products/problem-it",
+        "code": "360345",
+        "display": "Broken arm",
+        "userSelected": false
+      }
+    ],
+    "text": "Broken arm"
+  },
+  "subject": {
+    "reference": "Patient/12724069",
+    "display": "SMART, TIMMY"
+  },
+  "abatementDateTime": "2020-10-15T00:00:00.000Z",
+  "recordedDate": "2020-10-15T08:38:29.000Z"
+}

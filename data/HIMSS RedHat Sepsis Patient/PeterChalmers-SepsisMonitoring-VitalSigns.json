@@ -1,0 +1,632 @@
+{
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "/Composition/PNPfkJfkbpWGQ2WMF",
+      "resource": {
+        "resourceType": "Composition",
+        "status": "preliminary",
+        "subject": {
+          "reference": "Patient/31",
+          "display": "Chalmers, Peter"
+        },
+        "encounter": {
+          "reference": "Encounter/elMz2mwjsRvKnZiR.0ceTUg3"
+        },
+        "date": "2021-08-04",
+        "author": [],
+        "title": "Sepsis Monitoring - Vital Signs",
+        "confidentiality": 0,
+        "section": [
+          {
+            "reference": "/Patient/31"
+          },
+          {
+            "reference": "/Observation/pMpd4biKjNhSJw6Da"
+          },
+          {
+            "reference": "/Observation/u8AC7uTYMzWz6JNGD"
+          },
+          {
+            "reference": "/Observation/5ZfujPGphTaSTKRL9"
+          },
+          {
+            "reference": "/Observation/mHG7qAtC8Eusn3ZXs"
+          },
+          {
+            "reference": "/Observation/3SXcwu93dQw54gHjA"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/Patient/31",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "31",
+        "meta": {
+            "versionId": "1",
+            "lastUpdated": "2021-07-26T00:54:41.367+00:00",
+            "source": "#EVrGcQiCOn65MqP5"
+        },
+        "identifier": [
+            {
+                "use": "usual",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                            "code": "MR"
+                        }
+                    ]
+                },
+                "system": "urn:oid:1.2.36.146.595.217.0.1",
+                "value": "12345",
+                "period": {
+                    "start": "2001-05-06"
+                },
+                "assigner": {
+                    "display": "Acme Healthcare"
+                }
+            }
+        ],
+        "active": true,
+        "name": [
+            {
+                "use": "official",
+                "family": "Chalmers",
+                "given": [
+                    "Peter",
+                    "James"
+                ]
+            },
+            {
+                "use": "usual",
+                "given": [
+                    "Jim"
+                ]
+            },
+            {
+                "use": "maiden",
+                "family": "Windsor",
+                "given": [
+                    "Peter",
+                    "James"
+                ],
+                "period": {
+                    "end": "2002"
+                }
+            }
+        ],
+        "telecom": [
+            {
+                "use": "home"
+            },
+            {
+                "system": "phone",
+                "value": "(03) 5555 6473",
+                "use": "work",
+                "rank": 1
+            },
+            {
+                "system": "phone",
+                "value": "(03) 3410 5613",
+                "use": "mobile",
+                "rank": 2
+            },
+            {
+                "system": "phone",
+                "value": "(03) 5555 8834",
+                "use": "old",
+                "period": {
+                    "end": "2014"
+                }
+            }
+        ],
+        "gender": "male",
+        "birthDate": "1974-12-25",
+        "_birthDate": {
+            "extension": [
+                {
+                    "url": "http://hl7.org/fhir/StructureDefinition/patient-birthTime",
+                    "valueDateTime": "1974-12-25T14:35:45-05:00"
+                }
+            ]
+        },
+        "deceasedBoolean": false,
+        "address": [
+            {
+                "use": "home",
+                "type": "both",
+                "text": "534 Erewhon St PeasantVille, Rainbow, Vic  3999",
+                "line": [
+                    "534 Erewhon St"
+                ],
+                "city": "PleasantVille",
+                "district": "Rainbow",
+                "state": "Vic",
+                "postalCode": "3999",
+                "period": {
+                    "start": "1974-12-25"
+                }
+            }
+        ],
+        "contact": [
+            {
+                "relationship": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                "code": "N"
+                            }
+                        ]
+                    }
+                ],
+                "name": {
+                    "family": "du Marché",
+                    "_family": {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-prefix",
+                                "valueString": "VV"
+                            }
+                        ]
+                    },
+                    "given": [
+                        "Bénédicte"
+                    ]
+                },
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+33 (237) 998327"
+                    }
+                ],
+                "address": {
+                    "use": "home",
+                    "type": "both",
+                    "line": [
+                        "534 Erewhon St"
+                    ],
+                    "city": "PleasantVille",
+                    "district": "Rainbow",
+                    "state": "Vic",
+                    "postalCode": "3999",
+                    "period": {
+                        "start": "1974-12-25"
+                    }
+                },
+                "gender": "female",
+                "period": {
+                    "start": "2012"
+                }
+            }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/Observation/3SXcwu93dQw54gHjA",
+      "resource": {
+        "id": "eFZ3OfME8vq6XUwJts7mrGlawamuliODJO0plpp5SNrrxj6p9qx3ryD9ZpI5WBOhq3",
+        "resourceType": "Observation",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.707679",
+              "code": "5",
+              "display": "Blood Pressure"
+            },
+            {
+              "system": "http://open.epic.com/FHIR/StructureDefinition/observation-flowsheet-id",
+              "code": "tBdNYepLeojPG60x7nUx9kQ0",
+              "display": "Blood Pressure"
+            },
+            {
+              "system": "urn:oid:1.2.246.537.6.96",
+              "code": "8462-4"
+            },
+            {
+              "system": "urn:oid:1.2.246.537.6.96",
+              "code": "8480-6"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "55284-4",
+              "display": "Blood pressure systolic and diastolic"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel with all children optional"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "8716-3",
+              "display": "Vital signs"
+            }
+          ],
+          "text": "Blood Pressure"
+        },
+        "subject": {
+          "reference": "Patient/31",
+          "display": "Chalmers, Peter"
+        },
+        "encounter": {
+          "reference": "Encounter/elMz2mwjsRvKnZiR.0ceTUg3"
+        },
+        "effectiveDateTime": "2021-08-04T20:28:35Z",
+        "issued": "2021-08-04T21:09:38Z",
+        "performer": [
+          {
+            "reference": "Practitioner/exfo6E4EXjWsnhA1OGVElgw3",
+            "display": "User E"
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ],
+              "text": "Systolic blood pressure"
+            },
+            "valueQuantity": {
+              "value": 137,
+              "unit": "mm[Hg]",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ],
+              "text": "Diastolic blood pressure"
+            },
+            "valueQuantity": {
+              "value": 74,
+              "unit": "mm[Hg]",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ],
+        "_id": "3SXcwu93dQw54gHjA"
+      }
+    },
+    {
+      "fullUrl": "/Observation/mHG7qAtC8Eusn3ZXs",
+      "resource": {
+        "id": "eFZ3OfME8vq6XUwJts7mrGlqxp7X-Iqxr99xVQkMWBWzn8YIF5HJebujkdZdtRArd3",
+        "resourceType": "Observation",
+        "extension": [
+          {
+            "valueQuantity": {
+              "value": 98.6,
+              "unit": "[degF]",
+              "system": "http://unitsofmeasure.org",
+              "code": "[degF]"
+            },
+            "url": "http://open.epic.com/FHIR/STU3/StructureDefinition/temperature-in-fahrenheit"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.707679",
+              "code": "6",
+              "display": "Temperature"
+            },
+            {
+              "system": "http://open.epic.com/FHIR/StructureDefinition/observation-flowsheet-id",
+              "code": "tvdinindxnlKvaoAecyilRA0",
+              "display": "Temperature"
+            },
+            {
+              "system": "urn:oid:1.2.246.537.6.96",
+              "code": "8310-5"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "8716-3",
+              "display": "Vital signs"
+            }
+          ],
+          "text": "Temperature"
+        },
+        "subject": {
+          "reference": "Patient/31",
+          "display": "Chalmers, Peter"
+        },
+        "encounter": {
+          "reference": "Encounter/elMz2mwjsRvKnZiR.0ceTUg3"
+        },
+        "effectiveDateTime": "2021-08-04T20:33:19Z",
+        "issued": "2021-08-04T20:33:19Z",
+        "performer": [
+          {
+            "reference": "Practitioner/exfo6E4EXjWsnhA1OGVElgw3",
+            "display": "User E"
+          }
+        ],
+        "valueQuantity": {
+          "value": 37,
+          "unit": "Cel",
+          "system": "http://unitsofmeasure.org",
+          "code": "Cel"
+        },
+        "_id": "mHG7qAtC8Eusn3ZXs"
+      }
+    },
+    {
+      "fullUrl": "/Observation/5ZfujPGphTaSTKRL9",
+      "resource": {
+        "id": "eFZ3OfME8vq6XUwJts7mrGlqxp7X-Iqxr99xVQkMWBWx666qXe8yQJhFle7sYxheW3",
+        "resourceType": "Observation",
+        "extension": [
+          {
+            "valueQuantity": {
+              "value": 100.4,
+              "unit": "[degF]",
+              "system": "http://unitsofmeasure.org",
+              "code": "[degF]"
+            },
+            "url": "http://open.epic.com/FHIR/STU3/StructureDefinition/temperature-in-fahrenheit"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.707679",
+              "code": "6",
+              "display": "Temperature"
+            },
+            {
+              "system": "http://open.epic.com/FHIR/StructureDefinition/observation-flowsheet-id",
+              "code": "tvdinindxnlKvaoAecyilRA0",
+              "display": "Temperature"
+            },
+            {
+              "system": "urn:oid:1.2.246.537.6.96",
+              "code": "8310-5"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "8716-3",
+              "display": "Vital signs"
+            }
+          ],
+          "text": "Temperature"
+        },
+        "subject": {
+          "reference": "Patient/31",
+          "display": "Chalmers, Peter"
+        },
+        "encounter": {
+          "reference": "Encounter/elMz2mwjsRvKnZiR.0ceTUg3"
+        },
+        "effectiveDateTime": "2021-08-04T20:25:14Z",
+        "issued": "2021-08-04T20:25:14Z",
+        "performer": [
+          {
+            "reference": "Practitioner/exfo6E4EXjWsnhA1OGVElgw3",
+            "display": "User E"
+          }
+        ],
+        "valueQuantity": {
+          "value": 38,
+          "unit": "Cel",
+          "system": "http://unitsofmeasure.org",
+          "code": "Cel"
+        },
+        "_id": "5ZfujPGphTaSTKRL9"
+      }
+    },
+    {
+      "fullUrl": "/Observation/u8AC7uTYMzWz6JNGD",
+      "resource": {
+        "id": "eFZ3OfME8vq6XUwJts7mrGhaFPR89oWidApRBzezoyrQbnxns-ah5b2epwBxNdVbJ3",
+        "resourceType": "Observation",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.707679",
+              "code": "8",
+              "display": "Pulse"
+            },
+            {
+              "system": "http://open.epic.com/FHIR/StructureDefinition/observation-flowsheet-id",
+              "code": "t0nle2B9NVDaJJUDo0FtQrA0",
+              "display": "Pulse"
+            },
+            {
+              "system": "urn:oid:1.2.246.537.6.96",
+              "code": "8867-4"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "8716-3",
+              "display": "Vital signs"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Pulse"
+        },
+        "subject": {
+          "reference": "Patient/31",
+          "display": "Chalmers, Peter"
+        },
+        "encounter": {
+          "reference": "Encounter/elMz2mwjsRvKnZiR.0ceTUg3"
+        },
+        "effectiveDateTime": "2021-08-04T21:43:49Z",
+        "issued": "2021-08-04T22:00:01Z",
+        "performer": [
+          {
+            "reference": "Practitioner/exfo6E4EXjWsnhA1OGVElgw3",
+            "display": "User E"
+          }
+        ],
+        "valueQuantity": {
+          "value": 84,
+          "unit": "/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        },
+        "_id": "u8AC7uTYMzWz6JNGD"
+      }
+    },
+    {
+      "fullUrl": "/Observation/pMpd4biKjNhSJw6Da",
+      "resource": {
+        "id": "eFZ3OfME8vq6XUwJts7mrGtfrdgi3z7bTYer-.AZ.OQ8Nwn3-XLMhix1PWx1X7Img3",
+        "resourceType": "Observation",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.707679",
+              "code": "14",
+              "display": "Weight"
+            },
+            {
+              "system": "http://open.epic.com/FHIR/StructureDefinition/observation-flowsheet-id",
+              "code": "tX9rE8TgbEPXWpgEX7kuaoQ0",
+              "display": "Weight"
+            },
+            {
+              "system": "urn:oid:1.2.246.537.6.96",
+              "code": "29463-7"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "3141-9",
+              "display": "Body weight Measured"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "8716-3",
+              "display": "Vital signs"
+            }
+          ],
+          "text": "Weight"
+        },
+        "subject": {
+          "reference": "Patient/31",
+          "display": "Chalmers, Peter"
+        },
+        "encounter": {
+          "reference": "Encounter/elMz2mwjsRvKnZiR.0ceTUg3"
+        },
+        "effectiveDateTime": "2021-08-04T07:52:58Z",
+        "issued": "2021-08-04T10:00:37Z",
+        "performer": [
+          {
+            "reference": "Practitioner/exfo6E4EXjWsnhA1OGVElgw3",
+            "display": "User E"
+          }
+        ],
+        "valueQuantity": {
+          "value": 71.2,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        },
+        "_id": "pMpd4biKjNhSJw6Da"
+      }
+    }
+  ]
+}

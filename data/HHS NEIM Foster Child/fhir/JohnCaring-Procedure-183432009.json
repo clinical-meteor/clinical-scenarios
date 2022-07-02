@@ -1,0 +1,29 @@
+{
+  "resourceType": "Procedure",
+  "id": "183432009",
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "183432009",
+        "display": "Application to foster a child (procedure)",
+        "userSelected": true
+      }
+    ],
+    "text": "Application to foster a child (procedure)"
+  },
+  "subject": {
+    "reference": "Patient/john-caring",
+    "display": "CARING, JOHN"
+  },
+  "encounter": {
+    "reference": "Encounter/97953492"
+  },
+  "performedDateTime": "2019-06-01T00:00:00.000Z",
+  "recorder": {
+    "reference": "Practitioner/maggie-caseworker",
+    "display": "Caseworker, Maggie - Social Worker"
+  },
+  "notDone": false
+}

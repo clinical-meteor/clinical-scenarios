@@ -1,0 +1,1214 @@
+{
+  "resourceType": "Patient",
+  "id": "12724069",
+  "extension": [
+    {
+      "extension": [
+        {
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2106-3",
+            "display": "White",
+            "userSelected": false
+          },
+          "url": "ombCategory"
+        },
+        {
+          "valueString": "White",
+          "url": "text"
+        }
+      ],
+      "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+    },
+    {
+      "extension": [
+        {
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2186-5",
+            "display": "Not Hispanic or Latino",
+            "userSelected": false
+          },
+          "url": "ombCategory"
+        },
+        {
+          "valueString": "Not Hispanic, Latino, or Spanish Origin",
+          "url": "text"
+        }
+      ],
+      "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+    }
+  ],
+  "identifier": [
+    {
+      "id": "CI-490122199-0",
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+            "code": "2",
+            "display": "Community Medical Record Number",
+            "userSelected": true
+          },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical record number",
+            "userSelected": false
+          }
+        ],
+        "text": "Community Medical Record Number"
+      },
+      "system": "urn:oid:2.16.840.1.113883.3.787.0.0",
+      "value": "1414",
+      "_value": {
+        "extension": [
+          {
+            "valueString": "1414",
+            "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CI-490016908-1",
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+            "code": "10",
+            "display": "MRN",
+            "userSelected": true
+          },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical record number",
+            "userSelected": false
+          }
+        ],
+        "text": "MRN"
+      },
+      "system": "urn:oid:2.16.840.1.113883.6.1000",
+      "value": "6933",
+      "_value": {
+        "extension": [
+          {
+            "valueString": "00000006933",
+            "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+          }
+        ]
+      },
+      "period": {
+        "start": "2019-12-26T15:17:05.000Z"
+      }
+    },
+    {
+      "id": "CI-490068269-3",
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+            "code": "22",
+            "display": "Military Id",
+            "userSelected": true
+          }
+        ],
+        "text": "Military Id"
+      },
+      "system": "urn:oid:2.16.840.1.113883.3.42.10001.100001.12",
+      "value": "1005007023",
+      "_value": {
+        "extension": [
+          {
+            "valueString": "1005007023",
+            "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CI-490068390-4",
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+            "code": "670843",
+            "display": "Messaging",
+            "userSelected": true
+          },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "U",
+            "display": "Unspecified identifier",
+            "userSelected": false
+          }
+        ],
+        "text": "Messaging"
+      },
+      "system": "urn:oid:2.16.840.1.113883.3.13.8",
+      "value": "C35F2E9BE4E84B4C97A7C31F95C90C7A",
+      "_value": {
+        "extension": [
+          {
+            "valueString": "C35F2E9BE4E84B4C97A7C31F95C90C7A",
+            "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+          }
+        ]
+      },
+      "period": {
+        "start": "2020-08-10T16:40:56.000Z"
+      }
+    },
+    {
+      "id": "CI-490105033-5",
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+            "code": "2553236771",
+            "display": "Federated Person Principal",
+            "userSelected": true
+          },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "AN",
+            "display": "Account number",
+            "userSelected": false
+          }
+        ],
+        "text": "Federated Person Principal"
+      },
+      "system": "urn:oid:2.16.840.1.113883.3.13.6",
+      "value": "URN:CERNER:IDENTITY-FEDERATION:REALM:EC2458F2-1E24-41C8-B71B-0E701AF7583D-CH:PRINCIPAL:WV6NY7J87D39CP3Y",
+      "_value": {
+        "extension": [
+          {
+            "valueString": "URN:CERNER:IDENTITY-FEDERATION:REALM:EC2458F2-1E24-41C8-B71B-0E701AF7583D-CH:PRINCIPAL:WV6NY7J87D39CP3Y",
+            "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CI-490153240-6",
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+            "code": "2553236785",
+            "display": "MIllennium Person Identifier",
+            "userSelected": true
+          }
+        ],
+        "text": "MIllennium Person Identifier"
+      },
+      "_system": {
+        "extension": [
+          {
+            "valueCode": "unknown",
+            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+          }
+        ]
+      },
+      "value": "12871",
+      "_value": {
+        "extension": [
+          {
+            "valueString": "12871",
+            "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+          }
+        ]
+      },
+      "period": {
+        "start": "2020-12-18T19:15:06.000Z"
+      }
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "id": "CI-12724069-0",
+      "use": "official",
+      "text": "SMART, TIMMY",
+      "family": "SMART",
+      "given": [
+        "TIMMY"
+      ],
+      "period": {
+        "start": "2019-12-26T15:17:05.000Z"
+      },
+      "resourceType": "HumanName"
+    },
+    {
+      "id": "CI-490367448-0",
+      "use": "old",
+      "text": "SMARTT, TIMMY",
+      "family": "SMARTT",
+      "given": [
+        "TIMMY"
+      ],
+      "period": {
+        "start": "2021-07-13T14:16:03.000Z",
+        "end": "2021-07-13T14:17:09.000Z"
+      },
+      "resourceType": "HumanName"
+    },
+    {
+      "id": "CI-490367443-1",
+      "use": "old",
+      "text": "SMART, TIMMY",
+      "family": "SMART",
+      "given": [
+        "TIMMY"
+      ],
+      "period": {
+        "start": "2019-12-26T15:17:05.000Z",
+        "end": "2021-07-13T14:16:03.000Z"
+      },
+      "resourceType": "HumanName"
+    }
+  ],
+  "telecom": [
+    {
+      "id": "CI-PH-29811924-0",
+      "extension": [
+        {
+          "valueUrl": "(987)454-6566",
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+        }
+      ],
+      "system": "phone",
+      "value": "9874546566",
+      "use": "home",
+      "rank": 1,
+      "period": {
+        "start": "2019-12-26T15:17:05.000Z"
+      },
+      "resourceType": "ContactPoint"
+    },
+    {
+      "id": "CI-PH-29874332-1",
+      "extension": [
+        {
+          "valueUrl": "(987)654-3210",
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+        }
+      ],
+      "system": "phone",
+      "value": "9876543210",
+      "use": "mobile",
+      "rank": 1,
+      "resourceType": "ContactPoint"
+    },
+    {
+      "id": "CI-EM-29822901-0",
+      "system": "email",
+      "value": "timmysmart@yopmail.com",
+      "use": "home",
+      "rank": 1,
+      "period": {
+        "start": "2020-06-30T20:41:33.000Z"
+      },
+      "resourceType": "ContactPoint"
+    },
+    {
+      "id": "CI-EM-29875481-1",
+      "system": "email",
+      "value": "timmysmart@yopmail.com",
+      "use": "home",
+      "rank": 1,
+      "resourceType": "ContactPoint"
+    },
+    {
+      "id": "CI-EM-29874334-2",
+      "system": "email",
+      "value": "timmysmart@yopmail.com",
+      "use": "home",
+      "rank": 2,
+      "resourceType": "ContactPoint"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "2010-01-01",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "id": "CI-24313557-0",
+      "use": "home",
+      "text": "12345 MAIN ST\nKANSAS CITY, MO 64116\nUS",
+      "line": [
+        "12345 MAIN ST"
+      ],
+      "city": "KANSAS CITY",
+      "district": "Jackson",
+      "state": "MO",
+      "postalCode": "64116",
+      "country": "US",
+      "period": {
+        "start": "2019-12-26T15:16:36.000Z"
+      },
+      "resourceType": "Address"
+    }
+  ],
+  "maritalStatus": {
+    "coding": [
+      {
+        "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/38",
+        "code": "309239",
+        "display": "Single",
+        "userSelected": true
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+        "code": "S",
+        "display": "Never Married",
+        "userSelected": false
+      }
+    ],
+    "text": "Single"
+  },
+  "contact": [
+    {
+      "relationship": [
+        {
+          "coding": [
+            {
+              "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/351",
+              "code": "2553243305",
+              "display": "Authorized Representative",
+              "userSelected": true
+            }
+          ],
+          "text": "Authorized Representative"
+        }
+      ],
+      "name": {
+        "id": "CI-12724066-0",
+        "use": "official",
+        "text": "SMART, NANCY",
+        "family": "SMART",
+        "given": [
+          "NANCY"
+        ],
+        "period": {
+          "start": "2019-12-26T15:12:34.000Z"
+        },
+        "resourceType": "HumanName"
+      },
+      "telecom": [
+        {
+          "extension": [
+            {
+              "valueUrl": "(321)555-5555",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "3215555555",
+          "use": "work",
+          "rank": 1,
+          "period": {
+            "start": "2021-03-22T14:12:37.000Z"
+          },
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "(432)467-8767",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "4324678767",
+          "use": "home",
+          "rank": 1,
+          "period": {
+            "start": "2021-07-15T14:41:28.000Z"
+          },
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "(515)555-6789",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "(515) 555-6789",
+          "use": "home",
+          "rank": 2,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "(432)467-8767",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "(432) 467-8767",
+          "use": "home",
+          "rank": 3,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "(987)654-3210",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "9876543210",
+          "use": "home",
+          "rank": 4,
+          "period": {
+            "start": "2019-12-26T15:12:34.000Z"
+          },
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "(501)288-1111",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5012881111",
+          "use": "mobile",
+          "rank": 1,
+          "period": {
+            "start": "2021-01-25T05:00:00.000Z"
+          },
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 1,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 1,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 1,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 1,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "(515)555-6789",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "(515) 555-6789",
+          "use": "mobile",
+          "rank": 2,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 3,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 4,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 5,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 6,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 7,
+          "period": {
+            "start": "2021-01-25T05:00:00.000Z"
+          },
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 8,
+          "period": {
+            "start": "2021-01-25T05:00:00.000Z"
+          },
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 9,
+          "period": {
+            "start": "2021-01-25T05:00:00.000Z"
+          },
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 10,
+          "period": {
+            "start": "2021-01-25T00:33:18.000Z"
+          },
+          "resourceType": "ContactPoint"
+        },
+        {
+          "system": "email",
+          "value": "hello@a.com",
+          "use": "home",
+          "rank": 1,
+          "period": {
+            "start": "2020-06-30T19:47:10.000Z"
+          },
+          "resourceType": "ContactPoint"
+        },
+        {
+          "system": "email",
+          "value": "workemail@gmail.com",
+          "use": "home",
+          "rank": 1,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "system": "email",
+          "value": "workemail@gmail.com",
+          "use": "home",
+          "rank": 1,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "system": "email",
+          "value": "workemail@gmail.com",
+          "use": "home",
+          "rank": 1,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "system": "email",
+          "value": "workemail@gmail.com",
+          "use": "home",
+          "rank": 1,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "system": "email",
+          "value": "none",
+          "use": "home",
+          "rank": 2,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "system": "email",
+          "value": "workemail@gmail.com",
+          "use": "home",
+          "rank": 3,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "system": "email",
+          "value": "workemail@gmail.com",
+          "use": "home",
+          "rank": 4,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "system": "email",
+          "value": "workemail@gmail.com",
+          "use": "home",
+          "rank": 5,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "system": "email",
+          "value": "workemail@gmail.com",
+          "use": "home",
+          "rank": 6,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "system": "email",
+          "value": "workemail@gmail.com",
+          "use": "home",
+          "rank": 7,
+          "resourceType": "ContactPoint"
+        }
+      ],
+      "address": {
+        "use": "home",
+        "text": "3P\nKANSAS CITY, MO 64151-0001\nUS",
+        "line": [
+          "3P"
+        ],
+        "city": "KANSAS CITY",
+        "district": "Jackson",
+        "state": "MO",
+        "postalCode": "64151-0001",
+        "country": "US",
+        "period": {
+          "start": "2020-12-08T15:05:44.000Z"
+        }
+      },
+      "gender": "female",
+      "period": {
+        "start": "2020-08-10T16:37:51.000Z"
+      }
+    },
+    {
+      "relationship": [
+        {
+          "coding": [
+            {
+              "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/351",
+              "code": "1153",
+              "display": "Family Member",
+              "userSelected": true
+            }
+          ],
+          "text": "Family Member"
+        }
+      ],
+      "name": {
+        "id": "CI-12724066-1",
+        "use": "official",
+        "text": "SMART, NANCY",
+        "family": "SMART",
+        "given": [
+          "NANCY"
+        ],
+        "period": {
+          "start": "2019-12-26T15:12:34.000Z"
+        },
+        "resourceType": "HumanName"
+      },
+      "telecom": [
+        {
+          "extension": [
+            {
+              "valueUrl": "(321)555-5555",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "3215555555",
+          "use": "work",
+          "rank": 1,
+          "period": {
+            "start": "2021-03-22T14:12:37.000Z"
+          },
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "(432)467-8767",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "4324678767",
+          "use": "home",
+          "rank": 1,
+          "period": {
+            "start": "2021-07-15T14:41:28.000Z"
+          },
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "(515)555-6789",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "(515) 555-6789",
+          "use": "home",
+          "rank": 2,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "(432)467-8767",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "(432) 467-8767",
+          "use": "home",
+          "rank": 3,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "(987)654-3210",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "9876543210",
+          "use": "home",
+          "rank": 4,
+          "period": {
+            "start": "2019-12-26T15:12:34.000Z"
+          },
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "(501)288-1111",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5012881111",
+          "use": "mobile",
+          "rank": 1,
+          "period": {
+            "start": "2021-01-25T05:00:00.000Z"
+          },
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 1,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 1,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 1,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 1,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "(515)555-6789",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "(515) 555-6789",
+          "use": "mobile",
+          "rank": 2,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 3,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 4,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 5,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 6,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 7,
+          "period": {
+            "start": "2021-01-25T05:00:00.000Z"
+          },
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 8,
+          "period": {
+            "start": "2021-01-25T05:00:00.000Z"
+          },
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 9,
+          "period": {
+            "start": "2021-01-25T05:00:00.000Z"
+          },
+          "resourceType": "ContactPoint"
+        },
+        {
+          "extension": [
+            {
+              "valueUrl": "5034008675",
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+            }
+          ],
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "rank": 10,
+          "period": {
+            "start": "2021-01-25T00:33:18.000Z"
+          },
+          "resourceType": "ContactPoint"
+        },
+        {
+          "system": "email",
+          "value": "hello@a.com",
+          "use": "home",
+          "rank": 1,
+          "period": {
+            "start": "2020-06-30T19:47:10.000Z"
+          },
+          "resourceType": "ContactPoint"
+        },
+        {
+          "system": "email",
+          "value": "workemail@gmail.com",
+          "use": "home",
+          "rank": 1,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "system": "email",
+          "value": "workemail@gmail.com",
+          "use": "home",
+          "rank": 1,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "system": "email",
+          "value": "workemail@gmail.com",
+          "use": "home",
+          "rank": 1,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "system": "email",
+          "value": "workemail@gmail.com",
+          "use": "home",
+          "rank": 1,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "system": "email",
+          "value": "none",
+          "use": "home",
+          "rank": 2,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "system": "email",
+          "value": "workemail@gmail.com",
+          "use": "home",
+          "rank": 3,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "system": "email",
+          "value": "workemail@gmail.com",
+          "use": "home",
+          "rank": 4,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "system": "email",
+          "value": "workemail@gmail.com",
+          "use": "home",
+          "rank": 5,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "system": "email",
+          "value": "workemail@gmail.com",
+          "use": "home",
+          "rank": 6,
+          "resourceType": "ContactPoint"
+        },
+        {
+          "system": "email",
+          "value": "workemail@gmail.com",
+          "use": "home",
+          "rank": 7,
+          "resourceType": "ContactPoint"
+        }
+      ],
+      "address": {
+        "use": "home",
+        "text": "3P\nKANSAS CITY, MO 64151-0001\nUS",
+        "line": [
+          "3P"
+        ],
+        "city": "KANSAS CITY",
+        "district": "Jackson",
+        "state": "MO",
+        "postalCode": "64151-0001",
+        "country": "US",
+        "period": {
+          "start": "2020-12-08T15:05:44.000Z"
+        }
+      },
+      "gender": "female",
+      "period": {
+        "start": "2020-08-10T16:37:51.000Z"
+      }
+    }
+  ],
+  "communication": [
+    {
+      "language": {
+        "coding": [
+          {
+            "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/36",
+            "code": "151",
+            "display": "English",
+            "userSelected": true
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English",
+            "userSelected": false
+          }
+        ],
+        "text": "English"
+      },
+      "preferred": true
+    }
+  ],
+  "generalPractitioner": [
+    {
+      "id": "CI-490136598-1",
+      "reference": "Practitioner/12744688",
+      "display": "PWDentrix, Dentalprofessional"
+    },
+    {
+      "id": "CI-490017083-2",
+      "reference": "Practitioner/4122622",
+      "display": "Cerner Test, Physician - Hospitalist Cerner"
+    }
+  ],
+  "_birthDate": "2010-01-01T06:00:00.000Z"
+}

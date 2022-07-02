@@ -1,0 +1,37 @@
+{
+  "resourceType": "Procedure",
+  "id": "162596006",
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "162596006",
+        "display": "Suspected victim of child abuse (situation)",
+        "userSelected": true
+      }
+    ],
+    "text": "Suspected victim of child abuse (situation)"
+  },
+  "subject": {
+    "reference": "Patient/12724069",
+    "display": "SMART, TIMMY"
+  },
+  "encounter": {
+    "reference": "Encounter/97953492"
+  },
+  "performedDateTime": "2020-10-16T00:00:00.000Z",
+  "recorder": {
+    "reference": "Practitioner/12732051",
+    "display": "PWHandtevy, Physician - Emergency Medicine"
+  },
+  "performer": [
+    {
+      "actor": {
+        "reference": "Practitioner/4122630",
+        "display": "Cerner Test, Physician - Women's Health Cerner"
+      }
+    }
+  ],
+  "notDone": false
+}

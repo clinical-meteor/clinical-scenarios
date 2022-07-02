@@ -1,0 +1,37 @@
+{
+  "resourceType": "Procedure",
+  "id": "308440001",
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "308440001",
+        "display": "Referral to social worker (procedure)",
+        "userSelected": true
+      }
+    ],
+    "text": "Referral to social worker (procedure)"
+  },
+  "subject": {
+    "reference": "Patient/12724069",
+    "display": "SMART, TIMMY"
+  },
+  "encounter": {
+    "reference": "Encounter/97953492"
+  },
+  "performedDateTime": "2020-09-15T00:00:00.000Z",
+  "recorder": {
+    "reference": "Practitioner/12732051",
+    "display": "PWHandtevy, Physician - Emergency Medicine"
+  },
+  "performer": [
+    {
+      "actor": {
+        "reference": "Practitioner/4122630",
+        "display": "Cerner Test, Physician - Women's Health Cerner"
+      }
+    }
+  ],
+  "notDone": false
+}

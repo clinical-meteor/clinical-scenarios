@@ -1,0 +1,35 @@
+{
+  "resourceType": "Procedure",
+  "id": "alani-procedure-4",
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "394894008",
+        "display": "Pre-operative chemotherapy (procedure)"
+      }
+    ],
+    "text": "Pre-operative chemotherapy (procedure)"
+  },
+  "subject": {
+    "reference": "Patient/610f11c05b041e00082c54c2"
+  },
+  "performedDateTime": "2021-03-4",
+  "recorder": {
+    "reference": "Practitioner/example",
+    "display": "Dr Cecil Surgeon"
+  },
+  "asserter": {
+    "reference": "Practitioner/example",
+    "display": "Dr Cecil Surgeon"
+  },
+  "performer": [
+    {
+      "actor": {
+        "reference": "Practitioner/example",
+        "display": "Dr Cecil Surgeon"
+      }
+    }
+  ]
+}

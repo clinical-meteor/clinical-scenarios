@@ -1,0 +1,50 @@
+{
+  "resourceType": "Patient",
+  "id": "nancy-smart",
+  "active": true,
+  "name": [{
+    "use": "official",
+    "text": "SMART, NANCY",
+    "family": "SMART",
+    "given": [
+      "NANCY"
+    ],
+    "period": {
+      "start": "2019-12-26T15:12:34.000Z"
+    },
+    "resourceType": "HumanName"
+  }],
+  "gender": "female",
+  "birthDate": "1990-01-15",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "id": "CI-24313557-0",
+      "use": "home",
+      "text": "12345 MAIN ST\nKANSAS CITY, MO 64116\nUS",
+      "line": [
+        "12345 MAIN ST"
+      ],
+      "city": "KANSAS CITY",
+      "district": "Jackson",
+      "state": "MO",
+      "postalCode": "64116",
+      "country": "US",
+      "period": {
+        "start": "2019-12-26T15:16:36.000Z"
+      },
+      "resourceType": "Address"
+    }
+  ],
+  "maritalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+        "code": "S",
+        "display": "Never Married",
+        "userSelected": false
+      }
+    ],
+    "text": "Single"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resourceType": "Procedure",
+  "id": "alani-procedure-3",
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "183651009",
+        "display": "Chemotherapy follow-up (procedure)"
+      }
+    ],
+    "text": "Chemotherapy follow-up (procedure)"
+  },
+  "subject": {
+    "reference": "Patient/610f11c05b041e00082c54c2"
+  },
+  "performedDateTime": "2021-07-08",
+  "recorder": {
+    "reference": "Practitioner/example",
+    "display": "Dr Cecil Surgeon"
+  },
+  "asserter": {
+    "reference": "Practitioner/example",
+    "display": "Dr Cecil Surgeon"
+  },
+  "performer": [
+    {
+      "actor": {
+        "reference": "Practitioner/example",
+        "display": "Dr Cecil Surgeon"
+      }
+    }
+  ]
+}

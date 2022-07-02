@@ -1,0 +1,50 @@
+{
+    "resourceType": "Condition",
+    "id": "alani-breast-cancer-condition-7",
+    "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active"
+      }
+    ]
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code": "confirmed"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        },
+        {
+          "system": "http://snomed.info/sct",
+          "code": "439401001",
+          "display": "Diagnosis"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16211771000119103",
+        "display": "Specimen from breast obtained by mastectomy with axillary contents (specimen)"
+      }
+    ],
+    "text": "Specimen from breast obtained by mastectomy with axillary contents (specimen)"
+  },
+  "subject": {
+    "reference": "Patient/610f11c05b041e00082c54c2"
+  },
+  "onsetDateTime": "2021-02-08"
+}

@@ -1,0 +1,68 @@
+{
+  "resourceType": "Condition",
+  "id": "d2572625377",
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active",
+        "display": "Active"
+      }
+    ],
+    "text": "Active"
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code": "differential",
+        "display": "Differential",
+        "userSelected": false
+      }
+    ],
+    "text": "Differential"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        }
+      ],
+      "text": "Encounter Diagnosis"
+    },
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "74188005",
+          "display": "Medical (qualifier value)",
+          "userSelected": false
+        }
+      ],
+      "text": "Medical"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "code": "G60.0",
+        "display": "Hereditary motor and sensory neuropathy",
+        "userSelected": false
+      }
+    ],
+    "text": "Hereditary motor and sensory neuropathy"
+  },
+  "subject": {
+    "reference": "Patient/12724069",
+    "display": "SMART, TIMMY"
+  },
+  "encounter": {
+    "reference": "Encounter/97955046"
+  },
+  "onsetDateTime": "2015-09-01T14:45:56.000Z",
+  "recordedDate": "2015-09-01T14:45:56.000Z"
+}

@@ -1,0 +1,52 @@
+{
+  "resourceType": "Observation",
+  "id": "M-197505594",
+  "identifier": [
+    {
+      "system": "https://fhir.cerner.com/ceuuid",
+      "value": "CE87caf4b7-9397-4667-9897-702218017c9e-197505594-2021071620214500"
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        }
+      ],
+      "text": "Vital Signs"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/72",
+        "code": "703540",
+        "display": "Respiratory Rate",
+        "userSelected": true
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "9279-1"
+      }
+    ],
+    "text": "Respiratory Rate"
+  },
+  "subject": {
+    "reference": "Patient/12724069"
+  },
+  "encounter": {
+    "reference": "Encounter/97953492"
+  },
+  "effectiveDateTime": "2021-07-16T20:21:40.000Z",
+  "issued": "2021-07-16T20:21:40.000Z",
+  "valueQuantity": {
+    "value": 15,
+    "unit": "br/min",
+    "system": "http://unitsofmeasure.org",
+    "code": "{Breaths}/min"
+  }
+}

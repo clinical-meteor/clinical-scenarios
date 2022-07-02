@@ -1,0 +1,46 @@
+{
+  "resourceType": "RelatedPerson",
+  "id": "john-caring",
+  "active": true,
+  "name": [{
+    "use": "official",
+    "text": "CARING, JOHN",
+    "family": "CARING",
+    "given": [
+      "JOHN"
+    ],
+    "resourceType": "HumanName"
+  }],
+  "gender": "male",
+  "birthDate": "1979-09-01",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "12345 POLASKI AVE, CHICAGO< IL 60618",
+      "line": [
+        "12345 POLASKI AVE"
+      ],
+      "city": "CHICAGO",
+      "district": "Cook",
+      "state": "IL",
+      "postalCode": "60618",
+      "country": "US",
+      "period": {
+        "start": "2021-01-01T15:16:36.000Z"
+      },
+      "resourceType": "Address"
+    }
+  ],
+  "maritalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+        "code": "M",
+        "display": "Married",
+        "userSelected": false
+      }
+    ],
+    "text": "Married"
+  }
+}

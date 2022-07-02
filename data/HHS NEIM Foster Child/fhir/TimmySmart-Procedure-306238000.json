@@ -1,0 +1,37 @@
+{
+  "resourceType": "Procedure",
+  "id": "306238000",
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "306238000",
+        "display": "Referral to Social Services (procedure)",
+        "userSelected": true
+      }
+    ],
+    "text": "Referral to Social Services (procedure)"
+  },
+  "subject": {
+    "reference": "Patient/12724069",
+    "display": "SMART, TIMMY"
+  },
+  "encounter": {
+    "reference": "Encounter/97953492"
+  },
+  "performedDateTime": "2020-08-21T00:00:00.000Z",
+  "recorder": {
+    "reference": "Practitioner/12732051",
+    "display": "PWHandtevy, Physician - Emergency Medicine"
+  },
+  "performer": [
+    {
+      "actor": {
+        "reference": "Practitioner/4122630",
+        "display": "Cerner Test, Physician - Women's Health Cerner"
+      }
+    }
+  ],
+  "notDone": false
+}

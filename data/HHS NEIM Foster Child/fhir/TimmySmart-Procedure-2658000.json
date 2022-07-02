@@ -1,0 +1,37 @@
+{
+  "resourceType": "Procedure",
+  "id": "2658000",
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "2658000",
+        "display": "Social service interview of patient (procedure)",
+        "userSelected": true
+      }
+    ],
+    "text": "Social service interview of patient (procedure)"
+  },
+  "subject": {
+    "reference": "Patient/12724069",
+    "display": "SMART, TIMMY"
+  },
+  "encounter": {
+    "reference": "Encounter/97953492"
+  },
+  "performedDateTime": "2020-10-15T00:00:00.000Z",
+  "recorder": {
+    "reference": "Practitioner/12732051",
+    "display": "PWHandtevy, Physician - Emergency Medicine"
+  },
+  "performer": [
+    {
+      "actor": {
+        "reference": "Practitioner/4122630",
+        "display": "Cerner Test, Physician - Women's Health Cerner"
+      }
+    }
+  ],
+  "notDone": false
+}

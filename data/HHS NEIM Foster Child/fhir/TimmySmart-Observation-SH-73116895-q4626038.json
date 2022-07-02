@@ -1,0 +1,41 @@
+{
+  "resourceType": "Observation",
+  "id": "SH-73116895-q4626038",
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        }
+      ],
+      "text": "Social History"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "228453005",
+        "display": "Sexually active (finding)"
+      }
+    ],
+    "text": "SHX Sexually active"
+  },
+  "subject": {
+    "reference": "Patient/12724069"
+  },
+  "issued": "2020-12-03T21:22:17.000Z",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "373067005",
+        "display": "No (qualifier value)"
+      }
+    ],
+    "text": "No"
+  }
+}

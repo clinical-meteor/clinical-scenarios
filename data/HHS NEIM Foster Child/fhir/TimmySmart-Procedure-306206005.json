@@ -1,0 +1,37 @@
+{
+  "resourceType": "Procedure",
+  "id": "306206005",
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "306206005",
+        "display": "Referral to service (procedure)",
+        "userSelected": true
+      }
+    ],
+    "text": "Referral to service (procedure)"
+  },
+  "subject": {
+    "reference": "Patient/12724069",
+    "display": "SMART, TIMMY"
+  },
+  "encounter": {
+    "reference": "Encounter/97953492"
+  },
+  "performedDateTime": "2020-12-17T00:00:00.000Z",
+  "recorder": {
+    "reference": "Practitioner/maggie-caseworker",
+    "display": "Caseworker, Maggie - Social Worker"
+  },
+  "performer": [
+    {
+      "actor": {
+        "reference": "Practitioner/maggie-caseworker",
+        "display": "Caseworker, Maggie - Social Worker"
+      }
+    }
+  ],
+  "notDone": false
+}

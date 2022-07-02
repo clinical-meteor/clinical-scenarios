@@ -1,0 +1,80 @@
+{
+  "resourceType": "Condition",
+  "id": "d2572945953",
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active",
+        "display": "Active"
+      }
+    ],
+    "text": "Active"
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code": "confirmed",
+        "display": "Confirmed",
+        "userSelected": false
+      }
+    ],
+    "text": "Confirmed"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        }
+      ],
+      "text": "Encounter Diagnosis"
+    },
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "74188005",
+          "display": "Medical (qualifier value)",
+          "userSelected": false
+        }
+      ],
+      "text": "Medical"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "90235006",
+        "display": "Closed fracture of shaft of humerus (disorder)",
+        "userSelected": false
+      },
+      {
+        "system": "http://e-imo.com/products/problem-it",
+        "code": "884851",
+        "display": "Unspecified fracture of shaft of humerus, left arm, initial encounter for closed fracture",
+        "userSelected": false
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "code": "S42.302A",
+        "display": "Unspecified fracture of shaft of humerus, left arm, initial encounter for closed fracture",
+        "userSelected": false
+      }
+    ],
+    "text": "Unspecified fracture of shaft of humerus, left arm, initial encounter for closed fracture"
+  },
+  "subject": {
+    "reference": "Patient/12724069",
+    "display": "SMART, TIMMY"
+  },
+  "encounter": {
+    "reference": "Encounter/97953492"
+  },
+  "onsetDateTime": "2020-08-15T18:14:36.000Z",
+  "recordedDate": "2020-08-15T18:14:36.000Z"
+}

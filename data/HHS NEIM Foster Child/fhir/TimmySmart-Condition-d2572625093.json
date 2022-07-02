@@ -1,0 +1,68 @@
+{
+  "resourceType": "Condition",
+  "id": "d2572625093",
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active",
+        "display": "Active"
+      }
+    ],
+    "text": "Active"
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code": "differential",
+        "display": "Differential",
+        "userSelected": false
+      }
+    ],
+    "text": "Differential"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis",
+          "display": "Encounter Diagnosis"
+        }
+      ],
+      "text": "Encounter Diagnosis"
+    },
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "74188005",
+          "display": "Medical (qualifier value)",
+          "userSelected": false
+        }
+      ],
+      "text": "Medical"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "82271004",
+        "display": "Injury of head (disorder)",
+        "userSelected": false
+      }
+    ],
+    "text": "Head Injury"
+  },
+  "subject": {
+    "reference": "Patient/12724069",
+    "display": "SMART, TIMMY"
+  },
+  "encounter": {
+    "reference": "Encounter/97955046"
+  },
+  "onsetDateTime": "2015-10-26T14:36:46.000Z",
+  "recordedDate": "2015-10-26T14:36:47.000Z"
+}

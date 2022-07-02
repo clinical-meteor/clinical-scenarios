@@ -1,0 +1,16 @@
+{
+  "resourceType": "Practitioner",
+  "id": "maggie-caseworker",
+  "active": true,
+  "name": [{
+    "use": "official",
+    "text": "CASEWORKER, MAGGIE",
+    "family": "CASEWORKER",
+    "given": [
+      "MAGGIE"
+    ],
+    "resourceType": "HumanName"
+  }],
+  "gender": "female",
+  "birthDate": "1992-08-13"
+}

@@ -1,0 +1,36 @@
+{
+  "resourceType": "CarePlan",
+  "id": "183431002",
+  "status": "active",
+  "intent": "proposal",
+  "subject": {
+    "display": "Timmy Smart",
+    "reference": "Patient/12724069"
+  },
+  "period": {
+    "start": "2020-09-01T05:00:00.000Z",
+    "end": "2028-01-01T05:00:00.000Z"
+  },
+  "title": "Monitoring For Child Abuse",
+  "description": "Monitoring for child abuse (regime/therapy)",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "710998001",
+        "display": "Monitoring for child abuse (regime/therapy)"
+      }
+    ],
+    "text": "Monitoring for child abuse (regime/therapy)"
+  },
+  "goal": [
+    {
+      "display": "Food Security",
+      "reference": "Goal/foodsecurity"
+    },
+    {
+      "display": "Housing Security",
+      "reference": "Goal/housingsecurity"
+    }
+  ]
+}

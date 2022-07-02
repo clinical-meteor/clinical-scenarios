@@ -1,0 +1,54 @@
+{
+  "resourceType": "Procedure",
+  "id": "2572738961",
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://www.ama-assn.org/go/cpt",
+        "code": "99498",
+        "display": "Advance care planning including the explanation and discussion of advance directives such as standard forms (with completion of such forms, when performed), by the physician or other qualified health care professional; each additional 30 minutes (List separately in addition to code for primary procedure)",
+        "userSelected": true
+      }
+    ],
+    "text": "Advance Care Planning; additional 30 minutes"
+  },
+  "subject": {
+    "reference": "Patient/12724069",
+    "display": "SMART, TIMMY"
+  },
+  "encounter": {
+    "reference": "Encounter/97953492"
+  },
+  "performedDateTime": "2020-03-04T00:00:00.000Z",
+  "recorder": {
+    "reference": "Practitioner/12743411",
+    "display": "PWAffirmHealth, MDCardio"
+  },
+  "performer": [
+    {
+      "actor": {
+        "display": "Portal, Portal"
+      }
+    }
+  ],
+  "note": [
+    {
+      "authorReference": {
+        "reference": "Practitioner/12743411",
+        "display": "PWAffirmHealth, MDCardio"
+      },
+      "time": "2020-11-15T12:23:45.000Z",
+      "text": "update 1"
+    },
+    {
+      "authorReference": {
+        "reference": "Practitioner/12743411",
+        "display": "PWAffirmHealth, MDCardio"
+      },
+      "time": "2020-11-15T11:27:24.000Z",
+      "text": "Patient voluntarily discussed advance care planning with Portal Portal on 3/4/2020 for 46 minutes (family present) for an annual discussion. Printed and reviewed Do-Not-Resuscitate Order, Michigan."
+    }
+  ],
+  "notDone": true
+}

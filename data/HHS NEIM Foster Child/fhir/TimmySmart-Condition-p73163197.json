@@ -1,0 +1,79 @@
+{
+  "resourceType": "Condition",
+  "id": "p73163197",
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "resolved",
+        "display": "Resolved",
+        "userSelected": false
+      }
+    ],
+    "text": "Resolved"
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code": "confirmed",
+        "display": "Confirmed",
+        "userSelected": false
+      }
+    ],
+    "text": "Confirmed"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item",
+          "display": "Problem List Item"
+        }
+      ],
+      "text": "Problem List Item"
+    },
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "74188005",
+          "display": "Medical (qualifier value)",
+          "userSelected": false
+        }
+      ],
+      "text": "Medical"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "49727002",
+        "display": "Cough (finding)",
+        "userSelected": false
+      },
+      {
+        "system": "http://e-imo.com/products/problem-it",
+        "code": "41149",
+        "display": "Cough",
+        "userSelected": false
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "code": "R05",
+        "display": "Cough",
+        "userSelected": false
+      }
+    ],
+    "text": "Cough"
+  },
+  "subject": {
+    "reference": "Patient/12724069",
+    "display": "SMART, TIMMY"
+  },
+  "onsetDateTime": "2016-04-01T00:00:00.000Z",
+  "abatementDateTime": "2018-05-20T00:00:00.000Z",
+  "recordedDate": "2016-05-04T21:24:46.000Z"
+}

@@ -1,0 +1,20 @@
+{
+  "resourceType": "RelatedPerson",
+  "id": "joe-tragic",
+  "active": true,
+  "name": [{
+    "use": "official",
+    "text": "TRAGIC, JOE",
+    "family": "TRAGIC",
+    "given": [
+      "JOE"
+    ],
+    "period": {
+      "start": "2019-12-26T15:12:34.000Z"
+    },
+    "resourceType": "HumanName"
+  }],
+  "gender": "female",
+  "birthDate": "1985-06-20",
+  "deceasedBoolean": true
+}

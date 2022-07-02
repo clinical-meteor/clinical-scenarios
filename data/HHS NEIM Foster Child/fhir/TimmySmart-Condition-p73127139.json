@@ -1,0 +1,72 @@
+{
+  "resourceType": "Condition",
+  "id": "p73127139",
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "resolved",
+        "display": "Resolved",
+        "userSelected": false
+      }
+    ],
+    "text": "Resolved"
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code": "confirmed",
+        "display": "Confirmed",
+        "userSelected": false
+      }
+    ],
+    "text": "Confirmed"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item",
+          "display": "Problem List Item"
+        }
+      ],
+      "text": "Problem List Item"
+    },
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "74188005",
+          "display": "Medical (qualifier value)",
+          "userSelected": false
+        }
+      ],
+      "text": "Medical"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://e-imo.com/products/problem-it",
+        "code": "326266",
+        "display": "Hand and wrist extensor tendon rupture",
+        "userSelected": false
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "202961008",
+        "display": "Hand and wrist extensor tendon rupture (disorder)",
+        "userSelected": false
+      }
+    ],
+    "text": "Hand and wrist extensor tendon rupture"
+  },
+  "subject": {
+    "reference": "Patient/12724069",
+    "display": "SMART, TIMMY"
+  },
+  "abatementDateTime": "2020-10-15T00:00:00.000Z",
+  "recordedDate": "2020-10-15T15:32:41.000Z"
+}

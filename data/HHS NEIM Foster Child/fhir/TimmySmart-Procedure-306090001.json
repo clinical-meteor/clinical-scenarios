@@ -1,0 +1,37 @@
+{
+  "resourceType": "Procedure",
+  "id": "306090001",
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "306090001",
+        "display": "Referral by social worker (procedure)",
+        "userSelected": true
+      }
+    ],
+    "text": "Referral by social worker (procedure)"
+  },
+  "subject": {
+    "reference": "Patient/12724069",
+    "display": "SMART, TIMMY"
+  },
+  "encounter": {
+    "reference": "Encounter/97953492"
+  },
+  "performedDateTime": "2020-08-21T00:00:00.000Z",
+  "recorder": {
+    "reference": "Practitioner/maggie-caseworker",
+    "display": "Caseworker, Maggie - Social Worker"
+  },
+  "performer": [
+    {
+      "actor": {
+        "reference": "Practitioner/maggie-caseworker",
+        "display": "Caseworker, Maggie - Social Worker"
+      }
+    }
+  ],
+  "notDone": false
+}

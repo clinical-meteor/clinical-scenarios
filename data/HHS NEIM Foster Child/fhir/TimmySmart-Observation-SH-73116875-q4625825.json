@@ -1,0 +1,33 @@
+{
+  "resourceType": "Observation",
+  "id": "SH-73116875-q4625825",
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        }
+      ],
+      "text": "Social History"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "72166-2"
+      }
+    ],
+    "text": "SHX Tobacco use"
+  },
+  "subject": {
+    "reference": "Patient/12724069"
+  },
+  "issued": "2020-12-03T21:21:54.000Z",
+  "valueCodeableConcept": {
+    "text": "Never (less than 100 in lifetime)"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "resourceType": "CarePlan",
+  "id": "183431002",
+  "status": "active",
+  "intent": "proposal",
+  "subject": {
+    "display": "Timmy Smart",
+    "reference": "Patient/12724069"
+  },
+  "period": {
+    "start": "2021-01-01T05:00:00.000Z",
+    "end": "2028-01-01T05:00:00.000Z"
+  },
+  "title": "Foster Care",
+  "description": "Foster care (regime/therapy)",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "183431002",
+        "display": "Foster care (regime/therapy)"
+      }
+    ],
+    "text": "Foster care (regime/therapy)"
+  },
+  "goal": [
+    {
+      "display": "Food Security",
+      "reference": "Goal/foodsecurity"
+    },
+    {
+      "display": "Housing Security",
+      "reference": "Goal/housingsecurity"
+    }
+  ]
+}

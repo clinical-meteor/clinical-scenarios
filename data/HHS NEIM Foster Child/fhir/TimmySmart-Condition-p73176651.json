@@ -1,0 +1,72 @@
+{
+  "resourceType": "Condition",
+  "id": "p73176651",
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active",
+        "display": "Active",
+        "userSelected": false
+      }
+    ],
+    "text": "Active"
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code": "confirmed",
+        "display": "Confirmed",
+        "userSelected": false
+      }
+    ],
+    "text": "Confirmed"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item",
+          "display": "Problem List Item"
+        }
+      ],
+      "text": "Problem List Item"
+    },
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "74188005",
+          "display": "Medical (qualifier value)",
+          "userSelected": false
+        }
+      ],
+      "text": "Medical"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://e-imo.com/products/problem-it",
+        "code": "711829",
+        "display": "Broken leg",
+        "userSelected": false
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "46866001",
+        "display": "Fracture of lower limb (disorder)",
+        "userSelected": false
+      }
+    ],
+    "text": "Broken leg"
+  },
+  "subject": {
+    "reference": "Patient/12724069",
+    "display": "SMART, TIMMY"
+  },
+  "onsetDateTime": "2020-06-15T00:00:00.000Z",
+  "recordedDate": "2020-06-15T02:04:26.000Z"
+}

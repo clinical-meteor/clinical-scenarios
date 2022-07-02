@@ -1,0 +1,29 @@
+{
+  "resourceType": "Procedure",
+  "id": "2572738951",
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://www.ama-assn.org/go/cpt",
+        "code": "99497",
+        "display": "Advance care planning including the explanation and discussion of advance directives such as standard forms (with completion of such forms, when performed), by the physician or other qualified health care professional; first 30 minutes, face-to-face with the patient, family member(s), and/or surrogate",
+        "userSelected": true
+      }
+    ],
+    "text": "Advance Care Planning; first 30 minutes"
+  },
+  "performedDateTime": "2021-03-15",
+  "subject": {
+    "reference": "Patient/12724069",
+    "display": "SMART, TIMMY"
+  },
+  "encounter": {
+    "reference": "Encounter/97953492"
+  },
+  "recorder": {
+    "reference": "Practitioner/12743411",
+    "display": "PWAffirmHealth, MDCardio"
+  },
+  "notDone": true
+}

@@ -1,0 +1,37 @@
+{
+  "resourceType": "Procedure",
+  "id": "410552003",
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "410552003",
+        "display": "Guardian interview (procedure)",
+        "userSelected": true
+      }
+    ],
+    "text": "Guardian interview (procedure)"
+  },
+  "subject": {
+    "reference": "Patient/12724069",
+    "display": "SMART, TIMMY"
+  },
+  "encounter": {
+    "reference": "Encounter/97953492"
+  },
+  "performedDateTime": "2020-10-08T00:00:00.000Z",
+  "recorder": {
+    "reference": "Practitioner/maggie-caseworker",
+    "display": "Caseworker, Maggie - Social Worker"
+  },
+  "performer": [
+    {
+      "actor": {
+        "reference": "Practitioner/maggie-caseworker",
+        "display": "Caseworker, Maggie - Social Worker"
+          }
+    }
+  ],
+  "notDone": false
+}
